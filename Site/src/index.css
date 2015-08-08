@@ -1,0 +1,100 @@
+* {
+    margin-top: 0 !important;
+    padding-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.background {
+    position: fixed;
+    width: 100%;
+    padding-right: 50px;
+    align-content: center;
+    height: 505px;
+    z-index: -1;
+}
+
+.logo{
+    position: absolute;
+    left: 420px;
+    top: 18px;
+    z-index: 10;
+}
+a{
+    text-decoration: none;
+}
+a:link {
+    color: white;
+    font-family: 'Ramabhadra', monospace;
+}
+a:visited {
+    color: white;
+}
+
+.anim{
+    text-align: center;
+    background: #343434;
+}
+
+.anim:hover {
+    background: url("images/gradient2.png") no-repeat;
+    height: 50px;
+
+}
+
+
+#far {
+    margin-left: .3em;
+    padding-left: 0;
+    margin-bottom: 5.7em;
+}
+
+form {
+    z-index: 2;
+}
+
+h1 {
+    font-family: 'Oxygen', monospace;
+    color: white;
+    padding-right: 0;
+    padding-bottom: 2em;
+    margin-right: 0;
+    font-size: 60px;
+}
+
+header{
+    height: 110px;
+    background: #343434;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    padding-left: 30px;
+}
+
+#container {
+    min-height:100%;
+    position:relative;
+    height: 100%;
+}
+
+#body {
+
+    height: 440px;
+    padding-bottom:60px;
+    padding-top: 110px;
+}
+#footer {
+    position:fixed;
+    width:100%;
+    height:70px;
+    background:#343434;
+    z-index: 10;
+}
+
+p {
+    font-family: 'Ramabhadra', monospace;
+    color: white;
+    font-size: 30px;
+    margin-left: 55px;
+    display: inline;
+}
